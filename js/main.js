@@ -86,7 +86,7 @@ function derecha(){
 function fondoimagen(){
     const figuras=document.getElementById('Figura');
     const texto=document.getElementById('Titulo');
-    const imagenes=["img/rosa.JPEG"];
+    const imagenes=["img/rosa.jpeg"];
 
     figuras.style.backgroundImage= `url(${imagenes})`;
     texto.innerText="Cambio de imagen";
